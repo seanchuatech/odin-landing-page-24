@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 20px;
+}
+
+.header ul {
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-header {
+    width: 350px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.hero-info {
+    width: 350px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.information-nav {
+    display: flex;
+    gap: 16px;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-content {
+    width: 600px;
+    padding: 50px;
+    flex-direction: column;
+}
+
+div h4 {
+    text-align: right;
+}
+
+.callToAction-container {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.callToAction {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 30px;
+    margin: 70px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
